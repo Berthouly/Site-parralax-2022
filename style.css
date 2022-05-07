@@ -1,0 +1,143 @@
+body {
+    margin:0;
+}
+
+#menu {
+    position:fixed;
+    top:0;
+    height:50px;
+    background-color: black;
+    color:white;
+    font-family: 'Bebas Neue', Trebuchet MS;
+    width:100%;
+    font-size:25px;
+    z-index:10;
+}
+
+.logo {
+    position:absolute;
+    left:40px;
+    top:10px;
+    margin:0;
+}
+
+nav {
+    float:right;
+}
+
+nav ul {
+    margin:0;
+}
+
+nav li {
+    display:inline-block;
+    margin-top:10px;
+    margin-right:40px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:orange;
+}
+
+
+#z1,#z2,#z3,#z4 {
+    width:100%;
+    margin:0;
+}
+
+
+#z1 {
+    background-image: url(Images/wood.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+
+#z2 {
+    background-image: url(Images/umbrellas.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+#z3 {
+    background-image: url(Images/waterfall-thac-dray-nur-buon-me-thuot-daklak-68147.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+
+#z4 {
+    background-image: url(Images/marguerite-daisy-beautiful-beauty.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+#sect1,#sect2,#sect3,#sect4 {
+    color:white;
+    border-radius: 5px;
+    font-family: 'Oswald', Trebuchet MS;
+    padding:3%;
+    background-color:rgba(0, 0, 0, 0.884);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top:15px;
+}
+
+ p {
+    font-weight: normal;
+    font-size:20px;
+}
+
+#sect1,#sect4 {
+    width:525px;
+    height:385px;
+    margin-right:30px;
+    float:right;
+}
+
+#sect1 {
+    margin-top:165px;
+}
+
+#sect4 {
+    margin-top:115px;
+}
+
+#sect3 {
+    width:525px;
+    height:385px;
+    margin-top:115px;
+    margin-left:30px;
+    float:left;
+}
+
+#sect2 {
+    width:90%;
+    min-height:325px;
+    height:auto;
+    margin-top:115px;
+    margin-left:2%;
+    margin-right:2%;
+    float:left;
+}
+
